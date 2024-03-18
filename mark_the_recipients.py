@@ -7,7 +7,7 @@ with open('sent_messages.txt', 'r') as file:
     received_list = file.read().splitlines()
 
 # Read the Excel file using pandas
-excel_file = 'test1.xlsx'
+excel_file = 'phone_data.xlsx'
 df = pd.read_excel(excel_file)
 
 # Mark recipients in the DataFrame and set 'Marked' for those who received
