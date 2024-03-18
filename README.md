@@ -17,11 +17,11 @@ This program automates the process of sending designated messages to a list of r
 
 ## Setup
 
-1. **Install Python Dependencies**: Run the following command to install required Python libraries.
+1. **Install Python Dependencies**: Run the following command to install the required Python libraries.
 pip install openpyxl pandas
 
 2. **Configure Script Parameters**: 
-- In `send_message.py`, set `file_path` to the location of your Excel file.
+- In `send_message.py,` set `file_path` to the location of your Excel file.
 - Ensure the `sheet_name` variable matches the name of the sheet in your Excel file.
 - Update the `predetermined_message` variable with the message you wish to send.
 - Adjust the `phone_number` variable to match the column in your Excel file that contains phone numbers. This is currently set to extract phone numbers from the 10th column (`str(row[9])`).
@@ -38,16 +38,14 @@ pip install openpyxl pandas
 
 ## Important Notes
 
-- **Excel File Configuration**: Make sure your Excel file is properly set up with phone numbers in the correct column. The default script configuration assumes phone numbers are in the 10th column. Adjust the `phone_number` indexing in `send_message.py` as needed.
-- **Sheet Name**: The default sheet name in the scripts is set to `Sheet1`. Ensure you change the `sheet_name` variable in both scripts if your sheet is named differently.
+- **Excel File Configuration**: Make sure your Excel file is properly set up with emails in the correct column. The default script configuration of the emails is in the 5th column.
+- **Sheet Name**: The scripts default sheet name to `Sheet1`. If your sheet is named differently, ensure you change the `sheet_name` variable in both scripts.
 - **Messaging Limitations**: The messaging function is designed to work with Apple's Messages app and will only work on macOS systems.
-- **Privacy and Compliance**: Ensure you have consent to message the individuals in your Excel file and comply with any applicable laws regarding automated messaging.
+- **Privacy and Compliance**: Please ensure you consent to message the individuals in your Excel file and comply with any applicable laws regarding automated messaging.
 
 ## Contribution
 
-Feel free to fork this repository and submit pull requests to contribute to this project. For major changes, please open an issue first to discuss what you would like to change.
-
-Ensure to update tests as appropriate.
+Feel free to fork this repository and submit pull requests to contribute to this project. Before making major changes, please open an issue to discuss what you would like to change.
 
 ## License
 
