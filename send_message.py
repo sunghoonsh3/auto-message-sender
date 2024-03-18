@@ -40,10 +40,7 @@ def send_imessage(phone_number, message):
 file_path = '/Users/tristanshin/Desktop/pythonProject/test1.xlsx'
 sheet_name = 'Sheet1'  # Replace with your sheet name
 predetermined_message = (
-    "Hello – my name is Tristan and I'm a volunteer with the Biden campaign here in Indiana. "
-    "We're working to collect petition signatures to get Biden on the ballot and need some help "
-    "in the final ten-day stretch. If we email you a copy of the petition, can you print it out, "
-    "collect signatures from everyone in your household, then submit a photo of it to a Google Form?"
+    "Type your message here"
 )
 
 excel_data = read_excel(file_path, sheet_name)
