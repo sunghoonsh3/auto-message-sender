@@ -42,6 +42,7 @@ pip install openpyxl pandas
 - **Sheet Name**: The scripts default sheet name to `Sheet1`. If your sheet is named differently, ensure you change the `sheet_name` variable in both scripts.
 - **Messaging Limitations**: The messaging function is designed to work with Apple's Messages app and will only work on macOS systems.
 - **Privacy and Compliance**: Please ensure you consent to message the individuals in your Excel file and comply with any applicable laws regarding automated messaging.
+- **Sample Excel File**: You can refer to the phone_data.xlsx file provided in the repository to see the correct formatting for the Excel file.
 
 ## Contribution
 
