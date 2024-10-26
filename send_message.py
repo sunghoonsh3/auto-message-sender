@@ -37,7 +37,7 @@ def send_imessage(phone_number, message):
         print(f"Failed to send message to {phone_number}: {e}")
 
 # Usage
-file_path = '/Users/tristanshin/Desktop/pythonProject/phone_data.xlsx' # Type your path
+file_path = '' # Type your path
 sheet_name = 'Sheet1'  # Replace with your sheet name
 predetermined_message = (
     "Type your message here"
